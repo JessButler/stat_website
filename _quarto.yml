@@ -1,0 +1,33 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "STAT Team in NHS Grampian"
+  subtitle: "Strategic Analysis for Health Intelligence"
+  author: 
+    - Jess Butler, Lead Data Scientist
+    - You too
+  #date: "04/08/2023"
+  chapters:
+    - index.qmd
+    - projects.qmd
+    - people.qmd
+    - funders.qmd
+    - research.qmd
+    - code.qmd
+    - peer_groups.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+number-depth: 1
+search: true
+cover-image: isaac-smith-6EnTPvPPL6I-unsplash.jpg

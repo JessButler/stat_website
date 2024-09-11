@@ -1,0 +1,35 @@
+# Our Team {.unnumbered}
+
+### NHS Grampian STAT Team
+Corri Black, STAT lead and Consultant in Public Health  
+Jessica Butler, Lead Data Scientist  
+Frank Popham, Senior Data Scientist  
+Raul Berrocal-Martin, Research Fellow & Senior Analyst  
+Warren James, Research Fellow
+
+### NHS Public Health Collaborators
+Jillian Evans, Head of Health Intelligence  
+Shantini Paranjothy, Deputy Head of Public Health  
+
+### University of Aberdeen Collaborators
+Sharon Gordon, Coordinator  
+Irmina Zborowska, Project Administrator and Impact Officer  
+New Hire, Lead Grampian Data Safe Haven  
+Bernhard Scheliga, Analyst Grampian Data Safe Haven  
+Will Ball, Research Fellow (now at Robert Gordon University)  
+Dimitra Blana, Lecturer  
+
+### Health Determinants Research Collaborative Collaborators
+Martin Murchie, Chief Officer Data and Insights  
+Caroline Anderson, Information and Data Manager  
+Helen Cannings, Project Manager / Governance 
+
+### Health Foundation Collaborators
+Charles Tallack, Director of Data Analytics  
+Kathryn Marszalek, Senior Analytical Manager  
+Hannah Knight, Senior Analytical Manager  
+Caroline Fraser, Analyst  
+Tom Prendergast, Analyst  
+Cham Kifetew, Program Manager  
+Zoe Ruziczka, Programme Officer 
+

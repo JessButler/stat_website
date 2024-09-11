@@ -1,0 +1,132 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "NHS Grampian Networked Data Lab Manual",
+    "section": "",
+    "text": "Welcome\nWe’ve gathered up best practice for data science in the NHS. Use the menu on the left to navigate.\n\nOur guiding principles\nOur team follows the Government’s recommendations on Modern, open working methods for NHS data\n\nBuild, don’t buy\nAnalysts are coders\nWork by reproducible analytical pipelines\nOpen code, analysis and research\nGrow talent and create a modern profession",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "project.html",
+    "href": "project.html",
+    "title": "Grant Overview",
+    "section": "",
+    "text": "Our Grampian Networked Data Lab has been funded by The Health Foundation for £900,000 and is running through 2026.\nThe Health Foundation has created analytics teams embedded at five local NHSes across the UK (Grampian, Leeds, Liverpool, Northwest London and Wales). These teams make up the Networked Data Lab.\nThe project goal is for the 5 sites to link large-scale, high-security health data, then create open software tools and analysis to help national and local leaders improve care.\nHealth Foundation’s official Networked Data Lab Website\n\nRelated work\nAberdeen’s Health Data Research Collaborative\nFunded by NIHR, National Institute for Health and Care Research for £5M through 2028",
+    "crumbs": [
+      "Grant Overview"
+    ]
+  },
+  {
+    "objectID": "workflow.html",
+    "href": "workflow.html",
+    "title": "Workflow",
+    "section": "",
+    "text": "The Bible\nThe Turing Way handbook to reproducible, ethical and collaborative data science\n\n\nOverview\nSQL, R or Python for scripts\nGit for version control\nCode notebooks for development and publication\nCode review\nAll analysis gets an identifier (DOI)\nResearch shared openly (Github, MedRxiv, blogs, etc)\n\n\nRecord Keeping\nKeep daily tasks log\nPass brag-sheet highlights upwards\nContribute to quarterly report\nImpact log\n\n\nTechnical Details\nR Workflow for Medical Research",
+    "crumbs": [
+      "Workflow"
+    ]
+  },
+  {
+    "objectID": "data_sources.html",
+    "href": "data_sources.html",
+    "title": "Data Sources",
+    "section": "",
+    "text": "NHSG Data Map\n\n\nAccess Requirements\n\n\nNational Data",
+    "crumbs": [
+      "Data Sources"
+    ]
+  },
+  {
+    "objectID": "code.html",
+    "href": "code.html",
+    "title": "Writing Code",
+    "section": "",
+    "text": "The Big Picture\nGood Coding Practices for Data Analysts\n\n\nThe Bare Minimum\nGood enough practices in scientific computing\n\n\nLearning R\nR for Data Science\nModern Data Science\n\n\nWorkflow & Troubleshooting\nWhat They Forgot to Teach You About R\n\n\nVersion Control\nHow to use git",
+    "crumbs": [
+      "Writing Code"
+    ]
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Designing Analysis",
+    "section": "",
+    "text": "What is the analysis question?\nBe very clear about the goal of the analysis. Do you want to describe, predict, or explain?\nExplictly state the target measures for estimation. What is the population of interest? Who should be being compared? What conditions or outcomes are important? Which summary measures should be reported (difference in proportions, risk ratio, risk difference, conditional or marginal effect)? How should events affecting the interpretation (missing data, loss-to-follow-up, death, service changes) be handled?\nThen measure how the available data differ from the data required. Do we have the data for the target population? For the desired outcomes? How might the data we have be biased? How will this be accomodated in the research?\nDraw the underlying premises in terms of a directed acyclic graph, or DAG\nThe British Medical Journal’s advice for avoiding analytical errors\n\n\nDesign the tables and figures\nBefore data are accessed, draw up the exact format of the analysis output. Create tables with headings and row descriptions, and graphs with labeled axes and descriptions. This is helpful to ensure the estimands have been stated sufficiently clearly.\n\n\nWrite pseudocode\nOutline the code needed to create the tables and figures as designed.\n\n\nWork reproducibly\nAutomate\n\n\nPublish code and analysis\nWe default to open - per NHS Guidelines Include the code as part of the output Get a DOI for the output Archive the project in place X\n\n\nGo back to your stakeholders\nPresent your analysis in person\nShow one table or graph per slide\nPut the conclusion as the slide title\nAs what surprises the audience about the analysis\n\n\nAn Honest Plan\nFrom Richard McElreath’s An honest plan for modest research\n\nONE. What are we even trying to learn? Too much research nominates some big problem, finds some data that is metaphorical related to it, computes some (adjusted) associations, then tells a story about the significant results. Along the way, it’s not clear what we’ve learned, because there was no clear quantitative goal at the start. We need to define the phenomenon, the alternative explanations, and what estimates would help us distinguish among them or refine them.\n\n\nTWO. What is the ideal data for achieving the goals from ONE? This must be argued using an explicit, logical or computational model of the phenomenon. Prove it. Don’t appeal to intuition. Simulate or deduce. Yes, everything will depend upon assumptions. But a conclusion that doesn’t depend upon assumptions is rarely of value. Data themselves are insufficient.\n\n\nTHREE. What data do we actually have? What data can we acquire? How are these data sources different from the ideal on TWO? What is missing? Which proxies exist? How does error creep in? What are the causes of the missing data and measurement error? Is there selection bias? Nearly always. So model it as well. These are generative modeling assumptions, and we need them for the next part.\n\n\nFOUR. Is there a statistical way to use TWO and THREE to learn about ONE? Again, this must be demonstrated logically. Ad hoc, non-generative estimators can work if you get lucky, but their track record is very poor. Prove the analysis will work on synthetic data or otherwise do your best to describe the problems that concern you. But the usual tactic of “we cannot exclude confounding but here are the associations and we want to base policy on the notion they are causal” is neither justifiable nor ethical.”\n\n\n\nScience before Statistics\nRichard McElreath on How to choose variables for models",
+    "crumbs": [
+      "Designing Analysis"
+    ]
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
+    "section": "",
+    "text": "NHS Grampian Networked Data Lab Team\nJessica Butler, Lead Data Scientist\nFrank Popham, Senior Data Scientist\nCorri Black, STAT lead and Consultant in Public Health\n\n\nUniversity of Aberdeen Networked Data Lab Team\nRaul Berrocal-Martin, Research Fellow\nSharon Gordon, Coordinator\nNew Hire, Lead, Grampian Data Safe Haven\nBernhard Scheliga, Analyst, Grampian Data Safe Haven\nWill Ball, Research Fellow, now at Robert Gordon University\nDimitra Blana, Lecturer\nIrmina Zborowska, Project Administrator and Impact Officer\n\n\nHealth Foundation Team\nCharles Tallack, Director of Data Analytics\nKathryn Marszalek, Senior Analytical Manager\nHannah Knight, Senior Analytical Manager\nCaroline Fraser, Analyst\nTom Prendergast, Analyst\nCham Kifetew, Program Manager\nZoe Ruziczka, Programme Officer\n\n\nHealth Intelligence Collaborators\nJillian Evans, Head of Health Intelligence\nCraig Paterson\nElaine Thompson\nAdam Gatcombe\nRichard Slessor\nGreg Cook\nPayal Narula\n\n\nAberdeen City Council Collaborators\nMartin Murchie, Chief Officer (Data and Insights)\nCaroline Anderson, Information and Data Manager\nHelen Cannings, Project Manager / Governance\n\n\nAberdeenshire Collaborators\nTom Fensome",
+    "crumbs": [
+      "People"
+    ]
+  },
+  {
+    "objectID": "people.html#aberdeen-city-council-team",
+    "href": "people.html#aberdeen-city-council-team",
+    "title": "People",
+    "section": "Aberdeen City Council Team",
+    "text": "Aberdeen City Council Team\nMartin Murchie, Chief Officer (Data and Insights)\nCaroline Anderson, Information and Data Manager\nHelen?, Project Manager",
+    "crumbs": [
+      "People"
+    ]
+  },
+  {
+    "objectID": "people.html#public-health-team",
+    "href": "people.html#public-health-team",
+    "title": "People",
+    "section": "Public Health Team",
+    "text": "Public Health Team\nShantini Paranjothy, Consultant\nPaul Southworth, Consultant\nPeter",
+    "crumbs": [
+      "People"
+    ]
+  },
+  {
+    "objectID": "peer_groups.html",
+    "href": "peer_groups.html",
+    "title": "Analyst Groups",
+    "section": "",
+    "text": "NHS R\nAphA\nFutureNHS\nStrategy Unit\nSCODAS Analysts Group",
+    "crumbs": [
+      "Analyst Groups"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Briefing papers and Academic papers\nImproving children and young people’s mental health services\nInequalities in children’s mental health care: analysis of routinely collected data on prescribing and referrals to secondary care\nAssessing the impact of COVID-19 on the clinically extremely vulnerable population\nThe clinically extremely vulnerable to COVID: Identification and changes in healthcare while self-isolating (shielding) during the coronavirus pandemic\n\n\nInteractive Websites\nPoverty and emergency hospital admissions\nOvercrowding and vaccine needs\nFunding in priority neighbourhoods",
+    "crumbs": [
+      "Publications"
+    ]
+  },
+  {
+    "objectID": "people.html#aberdeen-city-council-collaborators",
+    "href": "people.html#aberdeen-city-council-collaborators",
+    "title": "People",
+    "section": "Aberdeen City Council Collaborators",
+    "text": "Aberdeen City Council Collaborators\nMartin Murchie, Chief Officer (Data and Insights)\nCaroline Anderson, Information and Data Manager\nHelen Cannings, Project Manager / Governance",
+    "crumbs": [
+      "People"
+    ]
+  },
+  {
+    "objectID": "people.html#aberdeenshire-collaborators",
+    "href": "people.html#aberdeenshire-collaborators",
+    "title": "People",
+    "section": "Aberdeenshire Collaborators",
+    "text": "Aberdeenshire Collaborators\nTom Fensome",
+    "crumbs": [
+      "People"
+    ]
+  }
+]
